@@ -4,7 +4,7 @@
 ## Code usage
 First, using OOD prompt to generate the initial query set.
 ```
-python attempts/vlm_crc100k_ood_random.py --model_type BMC --init_num 50 --save_csv al_file/BMC_openpath_init.csv \
+python vlm_crc100k_ood_random.py --model_type BMC --init_num 50 --save_csv al_file/BMC_openpath_init.csv \
     --seed 2020 --ood_cls 0 1 2 4 5 7 
 ```
 Then, AL training.
